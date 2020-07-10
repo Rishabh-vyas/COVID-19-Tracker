@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EBDD0828</color>
+    <color name="colorPrimaryDark">#EBDD0828</color>
+    <color name="colorAccent">#4CAF50</color>
+
+    <color name="white">#9C27B0</color>
+    <color name="black">#334933</color>
+    <color name="rishabh">#EBDD0828</color>
+
+    <color name="color1">#06C9E6</color>
+    <color name="color2">#FD420B</color>
+    <color name="color3">#BAEF00</color>
+    <color name="color4">#FFFD74</color>
+
+</resources>
