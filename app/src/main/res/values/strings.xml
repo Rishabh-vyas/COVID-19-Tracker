@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">COVID-19 Tracker</string>
+    <string name="aboutDev">Hello this is Rishabh vyas </string>
 </resources>

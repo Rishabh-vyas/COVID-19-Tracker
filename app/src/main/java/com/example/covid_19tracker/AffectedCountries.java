@@ -141,6 +141,21 @@ public class AffectedCountries extends AppCompatActivity {
                 simpleArcLoader.setVisibility(View.GONE);
                 Toast.makeText(AffectedCountries.this,volleyError.getMessage(),Toast.LENGTH_SHORT).show();
 
+                final AlertDialog.Builder builder=new AlertDialog.Builder(AffectedCountries.this);
+                View view=getLayoutInflater().inflate(R.layout.alert_dailog,null);
+                Button ok=(Button) view.findViewById(R.id.okBtn);
+                builder.setView(view);
+                final AlertDialog alertDialog= builder.create();
+                alertDialog.setCanceledOnTouchOutside(true);
+                ok.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        alertDialog.dismiss();
+                    }
+                });
+
+                alertDialog.show();
+
             }
         });
 
